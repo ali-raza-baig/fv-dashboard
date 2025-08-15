@@ -42,7 +42,7 @@ export default function RootLayout({
                         </div>
                     </div>
 
-                    <div className=" md:row-start-2 md:row-end-6 md:col-start-2 md:col-end-6 -mt-5 ml-0  md:px-16 md:block relative -top-120 md:top-0 overflow-y-auto">
+                    <div className=" md:row-start-2 mx-2 md:row-end-6 md:col-start-2 md:col-end-6 -mt-5 ml-0  md:px-16 md:block relative -top-120 md:top-0 overflow-y-auto">
                         {children}
                     </div>
                 </div>
@@ -50,3 +50,4 @@ export default function RootLayout({
         </html>
     );
 }
+
