@@ -6,7 +6,7 @@ import React from 'react'
 const Page = () => {
     return (
         <>
-            <div className='flex justify-between items-center flex-wrap'>
+            <div className='md:flex justify-between items-center flex-wrap'>
                 <h1 className='font-bold text-2xl py-4'>Manage Packages</h1>
                 <Link href={'/admin/packages/new'} className='font-bold text-lg py-4'> + Add New Package</Link>
 
@@ -18,3 +18,4 @@ const Page = () => {
 
 
 export default Page
+
